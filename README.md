@@ -8,6 +8,6 @@ Here is the link to the [google sheet](https://goo.gl/ICzFSg) & [test webpage](h
 
 # TODO
 
--Edit "docs"
+-Edit "docs"    
 -Merge "HTML Page" into "docs"    
 -Make "docs" website connect into the Google Sheets API like "HTML Page" does
