@@ -10,4 +10,4 @@ Here is the link to the [google sheet](https://goo.gl/ICzFSg) & [test webpage](h
 
 -Edit "docs"
 -Merge "HTML Page" into "docs"    
--Make "docs" website connect into the API like "HTML Page" does
+-Make "docs" website connect into the Google Sheets API like "HTML Page" does
