@@ -25,17 +25,17 @@
           scope: SCOPES
         }).then(function () {
           // Listen for sign-in state changes.
-          gapi.auth2.getAuthInstance().isSignedIn.listen(updateSigninStatus);
+          /**gapi.auth2.getAuthInstance().isSignedIn.listen(updateSigninStatus);
           // Handle the initial sign-in state.
-          updateSigninStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
+          /**updateSigninStatus(gapi.auth2.getAuthInstance().isSignedIn.get());**/
           authorizeButton.onclick = handleAuthClick;
           signoutButton.onclick = handleSignoutClick;
         });
       }
       /**
        *  Called when the signed in status changes, to update the UI
-       *  appropriately. After a sign-in, the API is called.
-       */
+       *  appropriately.
+       *
       function updateSigninStatus(isSignedIn) {
         if (isSignedIn) {
           authorizeButton.style.display = 'none';
