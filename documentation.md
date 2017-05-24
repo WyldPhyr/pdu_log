@@ -9,3 +9,5 @@ Sources:
 - https://www.oregon.gov/tspc/Pages/PDUs-Continuing.aspx
 - https://developers.google.com/sheets/api/quickstart/js
 
+Initial program flowchart: https://drive.google.com/file/d/0ByBOrxGnnHmLZ19MbDVfNGE1eE0/view?usp=sharing
+
