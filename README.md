@@ -2,9 +2,9 @@
 Application to convieniently track the amount of time (measured in Professional Development Units [PDU]) spent in Professional Development Activities.
 
 # HTML Page (Folder)
-Current HTML page and JavaScript files. (Not end goal or what we need to record, but does conenct to sheets) In the google sheets you can edit the function (Tools --> Script Editor)
+<del> Current HTML page and JavaScript files. (Not end goal or what we need to record, but does conenct to sheets) In the google sheets you can edit the function (Tools --> Script Editor) </del>
 
-Here is the link to the [google sheet](https://goo.gl/ICzFSg) & [test webpage](https://pdulogtestpage.bitballoon.com). You can use JSFiddle to do live edits, it works and does update inside the spreadsheet.
+<del> Here is the link to the [google sheet](https://goo.gl/ICzFSg) & [test webpage](https://pdulogtestpage.bitballoon.com). You can use JSFiddle to do live edits, it works and does update inside the spreadsheet.  </del>
 
 # UI Brainstorm
 -OPt-out "Do you want to use an existing sheet?"    
