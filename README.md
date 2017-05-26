@@ -14,4 +14,7 @@ Here is the link to the [google sheet](https://goo.gl/ICzFSg) & [test webpage](h
 -Edit "docs"    
 -Merge "HTML Page" into "docs"    
 -Make "docs" website connect into the Google Sheets API like "HTML Page" does    
--Play with OAuth UI, see if consolodate to one button/show if signed in
+
+# Real TODO
+-When the user authorizes the page, create/check a folder on the drive
+-Pre-load the form with user settings
