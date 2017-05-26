@@ -16,5 +16,5 @@ Here is the link to the [google sheet](https://goo.gl/ICzFSg) & [test webpage](h
 -Make "docs" website connect into the Google Sheets API like "HTML Page" does    
 
 # Real TODO
--When the user authorizes the page, create/check a folder on the drive
--Pre-load the form with user settings
+-When the user authorizes the page, create/check a folder on the drive    
+-Pre-load the form with user settings    
