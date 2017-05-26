@@ -6,8 +6,7 @@
       // Authorization scopes required by the API; multiple scopes can be
       // included, separated by spaces.
       var SCOPES = "https://www.googleapis.com/auth/spreadsheets";
-      var authorizeButton = document.getElementById('authorize-button');
-      var signoutButton = document.getElementById('signout-button');
+      var oauthButton = document.getElementById('oauth-button');
       /**
        *  On load, called to load the auth2 library and API client library.
        */
@@ -25,36 +24,35 @@
           scope: SCOPES
         }).then(function () {
           // Listen for sign-in state changes.
-          /**gapi.auth2.getAuthInstance().isSignedIn.listen(updateSigninStatus);
+          gapi.auth2.getAuthInstance().isSignedIn.listen(updateSigninStatus);
           // Handle the initial sign-in state.
-          /**updateSigninStatus(gapi.auth2.getAuthInstance().isSignedIn.get());**/
-          authorizeButton.onclick = handleAuthClick;
-          signoutButton.onclick = handleSignoutClick;
+          updateSigninStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
+          
         });
       }
       /**
        *  Called when the signed in status changes, to update the UI
        *  appropriately.
-       *
+       */
       function updateSigninStatus(isSignedIn) {
         if (isSignedIn) {
-          authorizeButton.style.display = 'none';
-          signoutButton.style.display = 'block';
+          oauthButton.onclick = handleSignout;
+		  oauthButton.innerText = "Signout";
         } else {
-          authorizeButton.style.display = 'block';
-          signoutButton.style.display = 'none';
+          oauthButton.onclick = handleSignin;
+		  oauthButton.innerText = "Authorize";
         }
       }
       /**
        *  Sign in the user upon button click.
        */
-      function handleAuthClick(event) {
+      function handleSignin(event) {
         gapi.auth2.getAuthInstance().signIn();
       }
       /**
        *  Sign out the user upon button click.
        */
-      function handleSignoutClick(event) {
+      function handleSignout(event) {
         gapi.auth2.getAuthInstance().signOut();
       }
       /**
