@@ -7,7 +7,7 @@ Application to convieniently track the amount of time (measured in Professional 
 <del> Here is the link to the [google sheet](https://goo.gl/ICzFSg) & [test webpage](https://pdulogtestpage.bitballoon.com). You can use JSFiddle to do live edits, it works and does update inside the spreadsheet.  </del>
 
 # UI Brainstorm
--OPt-out "Do you want to use an existing sheet?"    
+-Opt-out "Do you want to use an existing sheet?"    
 -Use local storage to store URI    
 
 # TODO
