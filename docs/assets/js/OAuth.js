@@ -1,6 +1,6 @@
 
       // Client ID and API key from the Developer Console
-      var CLIENT_ID = '982499981635-9t61dero6dgrkm5ga559kbn2unmrp3fr.apps.googleusercontent.com';
+      var CLIENT_ID = '58004022070-hjm2c4m8kd9bn83i3rkvf4vn2sq05mad.apps.googleusercontent.com';
       // Array of API discovery doc URLs for APIs used by the quickstart
       var DISCOVERY_DOCS = ["https://sheets.googleapis.com/$discovery/rest?version=v4"];
       // Authorization scopes required by the API; multiple scopes can be
